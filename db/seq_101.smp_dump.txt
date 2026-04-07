@@ -1,5 +1,5 @@
 
-State Machine - |seq_101|pre
+State Machine - |top_seq_101|seq_101:seq|pre
 Name pre.S3 pre.S2 pre.S1 pre.S0 
 pre.S0 0 0 0 0 
 pre.S1 0 0 1 1 

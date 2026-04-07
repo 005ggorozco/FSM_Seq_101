@@ -2,40 +2,76 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : 0.085
+Type  : Slow 1200mV 85C Model Setup 'clk_in'
+Slack : -2.935
+TNS   : -66.157
+
+Type  : Slow 1200mV 85C Model Setup 'clk_div:divider|clkOut'
+Slack : 0.086
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.450
+Type  : Slow 1200mV 85C Model Hold 'clk_div:divider|clkOut'
+Slack : 0.451
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Type  : Slow 1200mV 85C Model Hold 'clk_in'
+Slack : 0.544
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_in'
 Slack : -3.000
-TNS   : -8.140
+TNS   : -46.690
 
-Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : 0.171
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_div:divider|clkOut'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Setup 'clk_in'
+Slack : -2.615
+TNS   : -55.949
+
+Type  : Slow 1200mV 0C Model Setup 'clk_div:divider|clkOut'
+Slack : 0.173
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.406
+Type  : Slow 1200mV 0C Model Hold 'clk_div:divider|clkOut'
+Slack : 0.408
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Type  : Slow 1200mV 0C Model Hold 'clk_in'
+Slack : 0.491
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_in'
 Slack : -3.000
-TNS   : -8.140
+TNS   : -46.690
 
-Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : 0.552
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_div:divider|clkOut'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Fast 1200mV 0C Model Setup 'clk_in'
+Slack : -0.909
+TNS   : -16.255
+
+Type  : Fast 1200mV 0C Model Setup 'clk_div:divider|clkOut'
+Slack : 0.554
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.202
+Type  : Fast 1200mV 0C Model Hold 'clk_div:divider|clkOut'
+Slack : 0.204
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Type  : Fast 1200mV 0C Model Hold 'clk_in'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_in'
 Slack : -3.000
-TNS   : -7.244
+TNS   : -39.237
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_div:divider|clkOut'
+Slack : -1.000
+TNS   : -4.000
 
 ------------------------------------------------------------

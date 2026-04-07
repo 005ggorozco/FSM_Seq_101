@@ -16,15 +16,19 @@
 					"strict" : false
 				},
 				{
+					"name" : "clk_led",
+					"strict" : false
+				},
+				{
 					"name" : "in",
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "rst_n",
 					"strict" : false
 				},
 				{
-					"name" : "rst_n",
+					"name" : "clk_in",
 					"strict" : false
 				}
 			]
