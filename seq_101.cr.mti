@@ -1,0 +1,15 @@
+{C:/Users/MrRobot/Desktop/new git acc/projects/git projs/FSM_Seq_101/seq_101.v} {1 {vlog -work work -stats=none {C:/Users/MrRobot/Desktop/new git acc/projects/git projs/FSM_Seq_101/seq_101.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_101
+
+Top level modules:
+	seq_101
+
+} {} {}} {C:/Users/MrRobot/Desktop/new git acc/projects/git projs/FSM_Seq_101/testbench.v} {1 {vlog -work work -stats=none {C:\Users\MrRobot\Desktop\new git acc\projects\git projs\FSM_Seq_101\testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

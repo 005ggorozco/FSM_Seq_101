@@ -1,0 +1,66 @@
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 09:36:00 on Apr 14,2026
+# Loading work.testbench
+# Loading work.seq_101
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 2 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 2 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 2 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 2 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position end  sim:/testbench/in
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/rst_n
+add wave -position end  sim:/testbench/out
+add wave -position end  sim:/testbench/state
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 09:37:35 on Apr 14,2026, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 2
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 09:38:53 on Apr 14,2026
+# Loading work.testbench
+# Loading work.seq_101
+add wave -position end  sim:/testbench/in
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/rst_n
+add wave -position end  sim:/testbench/out
+add wave -position end  sim:/testbench/state
+run
+quit -sim
+# End time: 09:41:42 on Apr 14,2026, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 2
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 09:42:35 on Apr 14,2026
+# Loading work.testbench
+# Loading work.seq_101
+add wave -position end  sim:/testbench/in
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/rst_n
+add wave -position end  sim:/testbench/out
+add wave -position end  sim:/testbench/state
+run
+# End time: 09:56:55 on Apr 14,2026, Elapsed time: 0:14:20
+# Errors: 0, Warnings: 3
